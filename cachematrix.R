@@ -40,7 +40,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## so that it is faster to calculate when you ask for the inverse again.
 
 cacheSolve <- function(x) {
-        ## Return a matrix that is the inverse of 'x'
+        
   i <- x$getinverse()
   
     if(!is.null(i)) {
